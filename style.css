@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  font-family: Open Sans;
+}
+
+body, html {
+  margin: 0px;
+  paddings: 0px;
+}
+
+body {
+  font-family: Open Sans;
+}
+
+#navigationBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  font-style: bold;
+}
+
+#navigationBar a {
+  color: #57068c;
+}
+
+#mainContainer {
+ display: table;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+#heroBanner {
+  background-image: url("SUCKS.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120px;
+}
+
+.contentSectionContainer {
+  display: flex;
+}
+
+#table1 {
+  border-collapse: separate;
+  border-spacing: 0px, 0px;
+  align-items: center;
+  margin-left: 0px;
+}
+
+#columnContainer1 {
+  box-sizing: border-box;
+  color: #57068c;
+  border: 5px;
+  border-style: solid;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 5px;
+  flex: 50%
+  padding: 10px;
+  height: flex;
+  width: 500px;
+}
+
+#columnContainer1 a {
+  text-align: center;
+  color: #57068c;
+}
+
+#columnContainer1 p {
+  color: grey;
+  font-size: 15pt;
+}
+
+.button {
+  background-color: #fff;
+  color: rgb(135, 57, 223);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid rgb(135, 57, 223);
+}

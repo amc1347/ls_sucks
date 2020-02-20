@@ -17,25 +17,22 @@ body {
   margin: 0;
   padding: 0;
   background-color: #8542DD;
-  font-style: bold;
   overflow: hidden;
   color: #fff;
-  position: relative;
 }
 
 #navigationBar li {
-  display: inline;
+  float: left;
   color: #fff;
-  padding: 14px 16px;
   float: center;
 }
 
 #navigationBar li a{
   text-align: center;
-  display: inline-block;
+  display: block;
   color: #fff;
-  padding: 10px;
   font-family: Open Sans;
+  padding: 10px 25px;
   font-size: 14pt;
 }
 
@@ -112,4 +109,23 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   border: 2px solid rgb(135, 57, 223);
+}
+
+#columnContainer2 {
+  box-sizing: border-box;
+  color: #57068c;
+  border: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  flex: 50%
+  padding: 10px;
+  height: flex;
+  width: 500px;
+}
+
+#columnContainer2 p{
+  color: grey;
+  font-size: 15pt;
+  font-style: italic;
 }

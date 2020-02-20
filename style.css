@@ -53,6 +53,7 @@ body {
   background-image: url("SUCKS.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   height: 120px;
 }
 
@@ -61,6 +62,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 330px;
+  background-size: cover;
 }
 
 .contentSectionContainer {

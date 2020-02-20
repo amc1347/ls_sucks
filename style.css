@@ -12,18 +12,35 @@ body {
   font-family: Open Sans;
 }
 
-#navigationBar {
+#navigationBar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
-  text-decoration: none;
-  background-color: #fff;
+  background-color: #8542DD;
   font-style: bold;
+  overflow: hidden;
+  color: #fff;
+  position: relative;
 }
 
-#navigationBar a {
-  color: #57068c;
+#navigationBar li {
+  display: inline;
+  color: #fff;
+  padding: 14px 16px;
+  float: center;
+}
+
+#navigationBar li a{
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+  font-family: Open Sans;
+  font-size: 14pt;
+}
+
+#navigationBar li a:hover {
+  background: #5b0693;
 }
 
 #mainContainer {
@@ -40,6 +57,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 120px;
+}
+
+#heroBannerimage {
+  background-image: url('sideways.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 330px;
 }
 
 .contentSectionContainer {

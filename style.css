@@ -12,26 +12,31 @@ body {
   font-family: Open Sans;
 }
 
+#navigationBar {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #8542DD;
+}
+
 #navigationBar ul {
-  list-style-type: none;
+  display: flex;
   margin: 0;
   padding: 0;
   background-color: #8542DD;
-  overflow: hidden;
   color: #fff;
+  justify-content: flex-start;
 }
 
 #navigationBar li {
-  float: left;
+  display: flex;
+  flex-direction: column;
   color: #fff;
-  float: center;
 }
 
-#navigationBar li a{
-  text-align: center;
-  display: block;
+#navigationBar li a {
+  display: flex;
+  flex-direction: row;;
   color: #fff;
-  font-family: Open Sans;
   padding: 10px 25px;
   font-size: 14pt;
 }
@@ -50,14 +55,23 @@ body {
 /* reference: https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page */
 
 #heroBanner {
-  background-image: url("SUCKS.png");
+  display: flex;
+  background-color: #5b0693;
+}
+
+#heroBannerlogo {
+  display: flex;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 120px;
+  justify-content`: flex-start;
+  background-image: url("SUCKS.png") ;
+  height: 100px;
+  background-color: #5b0693;
+  background-position: left;
+  align-items: flex-end;
 }
 
 #heroBannerimage {
+  display: flex;
   background-image: url('sideways.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -70,8 +84,9 @@ body {
 }
 
 #table1 {
+  display: flex;
   border-collapse: separate;
-  border-spacing: 0px, 0px;
+  border-spacing: 10px, 10px;
   align-items: center;
   margin-left: 0px;
 }
@@ -81,11 +96,12 @@ body {
   color: #57068c;
   border: 5px;
   border-style: solid;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 5px;
-  flex: 50%
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 10px;
+  flex: 50%;
   height: flex;
   width: 500px;
 }
@@ -114,6 +130,10 @@ body {
 }
 
 #columnContainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   box-sizing: border-box;
   color: #57068c;
   border: 0px;
